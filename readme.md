@@ -38,10 +38,9 @@ A full stack web application is created using HTML, CSS, JavaScript, Node.js, Ex
 **MySQL Database:**
 MySQL is one of the easy to understand and proficient languages available today, and its features can be utilised efficiently to build an online system for storing data related to the books.
 
-**Google Cloud Resources required:**
--	Compute engine - Virtual machine to host web application
--	Cloud SQL - Backend MySQL database to store book details
--	Cloud Storage - Storing book cover thumbnails and users’ profile picture
+**AWS Resources required:**
+-	Amazon EC2 instance - Virtual machine to host web application
+-	Amazon RDS - Backend MySQL database to store book details
 
 **Suggestive Additions to the Project:**
 
@@ -54,8 +53,8 @@ MySQL is one of the easy to understand and proficient languages available today,
 -	Donate money/new books/used books to help educate underprivileged children.
 -	Provide an online sample of a few pages per book, to encourage users to purchase the product.
 
-**Web Application by**:*@mohammadshaad*
+**Front-end web application by**:*@mohammadshaad*
 
-**DataBase by**:*Abirami*
+**Back-end web application by**:*@A-b-i-r-a-m-i-G-S*
 
 **Documentation by**:*@deepthi1129*
