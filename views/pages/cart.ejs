@@ -96,19 +96,19 @@
             <h2 class="font-bold text-3xl text-blue-700">Selected Books</h2>
             <% books.forEach((book)=> { %>
                 <div class="rec-wrapper w-full flex items-center justify-start gap-6">
-                    <img src=<%="book" + book.IDX + ".jpeg" %> alt="" class="w-20 h-auto rounded-md">
+                    <img src=<%="book" + book.idx + ".jpeg" %> alt="" class="w-20 h-auto rounded-md">
                     <div class="rec-subcontainer flex items-center justify-between w-full">
                         <div class="rec-subwrapper">
                             <div class="text flex items-start justify-center flex-col">
                                 <p class="title text-center font-medium text-2xl">
-                                    <%= book.BNAME %>
+                                    <%= book.bname %>
                                 </p>
                                 <p class="author text-center">
-                                    <%= book.BAUTH %>
+                                    <%= book.bauth %>
                                 </p>
                                 <p class="author text-center">
                                     <i class="fa-solid fa-indian-rupee-sign"></i>
-                                    <%= book.BPRICE %>
+                                    <%= book.bprice %>
                                 </p>
                             </div>
                         </div>
