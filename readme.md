@@ -32,6 +32,35 @@ The online book store system can be used by people across the world, to purchase
 
 ## Implementation: 🧰
 
+### Installing dependencies
+* Install node version manager (nvm).
+    ```
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+    ```
+* Activate nvm.
+    ```
+    . ~/.nvm/nvm.sh
+    ```
+* Install node
+    ```
+    nvm install node
+    ```
+* Install git
+    ```
+    sudo apt-get install git
+    ```
+* Install nodejs, ejs, express and mysql2 inside the code repository.
+    ```
+    npm install node
+    npm install ejs
+    npm install express
+    npm install mysql2
+    ```
+* Install mariadb
+    ```
+    sudo apt-get install mariadb-client
+    mysql -h <endpoint> -P 3306 -u <mymasteruser> -p
+    ```
 ### Application Frontend:
 A full stack web application is created using HTML, CSS, JavaScript, Node.js, Express.js. The frontend is connected to a MySQL database to maintain the inventory of books. 
 
