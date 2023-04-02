@@ -58,7 +58,7 @@ The online book store system can be used by people across the world, to purchase
     ```
 * Install mariadb
     ```
-    sudo spt-get update
+    sudo apt-get update
     sudo apt-get install mariadb-client
     mysql -h <endpoint> -P 3306 -u <mymasteruser> -p
     ```
